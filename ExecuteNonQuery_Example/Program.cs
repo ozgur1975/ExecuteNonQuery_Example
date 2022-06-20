@@ -38,7 +38,7 @@ namespace ExecuteNonQuery_Example
                     cmd.Parameters.Add("@MevcutStokKodu", SqlDbType.VarChar).Value = "STK00400";
                     cmd.Parameters.Add("@YeniStokTipi", SqlDbType.VarChar).Value = "00400";
                     cmd.Parameters.Add("@YeniStokKodu", SqlDbType.VarChar).Value = "STK00400x";
-                    cmd.Parameters.Add("@UserKodu", SqlDbType.VarChar).Value = "QSECOFR";
+                    cmd.Parameters.Add("@UserKodu", SqlDbType.VarChar).Value = "CHGUSER";
                     cmd.Parameters.Add("@Attempt", SqlDbType.Int).Value = -1;
 
 
