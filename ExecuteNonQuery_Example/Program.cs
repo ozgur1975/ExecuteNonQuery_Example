@@ -48,8 +48,9 @@ namespace ExecuteNonQuery_Example
                     con.Open();
                     object o = cmd.ExecuteNonQuery();
 
-                    Console.Write("Geri dönüş değeri: {0}, Dönen Paremetre: {1}", o?.ToString(), returnValue?.ToString());
-                    
+                    Console.WriteLine("Geri dönüş değeri: {0}, Dönen Paremetre: {1}", o?.ToString(), returnValue?.ToString());
+                    Console.ReadLine();
+
                     con.Close();
                 }
             }
